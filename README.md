@@ -32,4 +32,4 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 Feel free to contribute.
 
-**Thanks for checking!!** 🚀
+**Thanks for checking!** 🚀
