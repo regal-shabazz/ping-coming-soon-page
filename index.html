@@ -6,15 +6,47 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Ping coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./icons/css/all.css">
 </head>
 <body>
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="ping logo">
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1>We are launching <span>soon!</span></h1>
+        <p>Subscribe and get notified</p>
+      </section>
+
+      <div class="form__control">
+        <form id="form" action="#">
+          <label for="email">
+            <input type="text" name="email__field" id="email">
+            <p id="error__message"></p>
+          </label>
+          
+          <button type="submit">notify me</button>
+        </form>
+      </div>
+
+      <div class="hero">
+        <img src="./images/illustration-dashboard.png" alt="dashboard illustration" id="hero__image">
+      </div>
+    </main>
+
+    <footer>
+      <div class="social__icons">
+        <img src="" alt="">
+      </div>
+    </footer>
+  </div>
 
   We are launching soon!
 
@@ -23,12 +55,5 @@
   Notify Me
 
   &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
