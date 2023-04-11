@@ -77,8 +77,11 @@ form label input {
 
 form label p {
   color: hsl(354, 100%, 66%);
-  font-size: 0.8rem;
-  padding: 1rem auto 2rem;
+  font-size: 0.6rem;
+  margin: .5rem auto 1rem;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
 }
 
 .form__control form button {
@@ -86,7 +89,6 @@ form label p {
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
   text-transform: capitalize;
-  margin-top: 0.7rem;
   outline: none;
   border: none;
   background-color: hsl(223, 87%, 63%);
@@ -106,6 +108,10 @@ form label p {
 
 .hero img {
   width: 100%;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer .social__icons {
@@ -154,17 +160,29 @@ footer .copyright {
 
   .form__control form {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
   }
 
   form label {
     width: 63%;
+    
+  }
+
+  form label input {
+    margin-bottom: .3rem;
+  }
+
+  form label p { /*  */
+    margin: 0;
+    text-align: left;
+    padding-left: 1.5rem;
   }
 
   .form__control form button {
     width: 35%;
     margin-top: 0;
+  
   }
 
   .hero {
