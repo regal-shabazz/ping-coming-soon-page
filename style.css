@@ -14,12 +14,12 @@ body {
 
 body .container {
   width: 90%;
-  max-width: 1440px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 header {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 header .logo__component {
@@ -39,7 +39,7 @@ main section {
 
 main h1 {
   font-weight: 300;
-  color:  hsl(0, 0%, 59%);
+  color: hsl(0, 0%, 59%);
 }
 
 h1 span {
@@ -49,7 +49,7 @@ h1 span {
 
 main section p {
   font-weight: 600;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 1rem;
   color: hsl(209, 33%, 12%);
 }
@@ -68,7 +68,7 @@ main section p {
 form label input {
   display: block;
   width: 100%;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 30px;
   border: 1px solid hsl(223, 100%, 88%);
   color: hsl(0, 0%, 59%);
@@ -77,16 +77,16 @@ form label input {
 
 form label p {
   color: hsl(354, 100%, 66%);
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 1rem auto 2rem;
 }
 
 .form__control form button {
   width: 100%;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 30px;
   text-transform: capitalize;
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   outline: none;
   border: none;
   background-color: hsl(223, 87%, 63%);
@@ -112,42 +112,64 @@ footer .social__icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
 }
 
 footer .social__icons i {
   display: inline-block;
-  margin: auto .9rem;
+  margin: auto 0.9rem;
   border: 1px solid hsl(223, 100%, 88%);
-  padding: .3rem;
+  padding: 0.3rem;
   border-radius: 50%;
   width: 30px;
   height: 30px;
   display: grid;
   place-items: center;
   color: hsl(223, 87%, 63%);
-  font-size: .8rem;
+  font-size: 0.8rem;
   cursor: pointer;
-  transition: ease-in-out .5s;
+  transition: ease-in-out 0.5s;
 }
 
 footer .copyright {
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
   color: hsl(0, 0%, 59%);
   margin-bottom: 3rem;
 }
 
-
 @media screen and (min-width: 768px) {
-  form {
-    display: flex;
+
+  .container {
+    padding: 0 2.5rem;
   }
 
-footer .social__icons i:hover {
-  background-color: hsl(223, 87%, 63%);
-  color: #fff;
-  transition: ease-in-out .5s;
-}
+  main h1 {
+    font-size: 2.5rem;
+  }
 
+  main section p {
+    font-size: 1.1rem;
+  }
+
+  .form__control form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  form label {
+    width: 63%;
+  }
+
+  .form__control form button {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  footer .social__icons i:hover {
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    transition: ease-in-out 0.5s;
+  }
 }
