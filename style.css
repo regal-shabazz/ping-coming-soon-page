@@ -167,6 +167,10 @@ footer .copyright {
     margin-top: 0;
   }
 
+  .hero {
+    margin-bottom: 5rem;
+  }
+
   footer .social__icons i:hover {
     background-color: hsl(223, 87%, 63%);
     color: #fff;
