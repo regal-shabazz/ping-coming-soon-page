@@ -30,6 +30,7 @@ header #logo {
   display: block;
   margin: 0 auto;
   width: 70px;
+  cursor: pointer;
 }
 
 main section {
@@ -71,6 +72,7 @@ form label input {
   border-radius: 30px;
   border: 1px solid hsl(223, 100%, 88%);
   color: hsl(0, 0%, 59%);
+  outline: none;
 }
 
 form label p {
@@ -92,6 +94,10 @@ form label p {
   cursor: pointer;
   font-weight: 600;
   box-shadow: 0 8px 8px hsla(223, 100%, 88%, 0.637);
+}
+
+.form__control form button:hover {
+  background-color: hsla(223, 87%, 63%, 0.785);
 }
 
 .hero {
@@ -121,6 +127,8 @@ footer .social__icons i {
   place-items: center;
   color: hsl(223, 87%, 63%);
   font-size: .8rem;
+  cursor: pointer;
+  transition: ease-in-out .5s;
 }
 
 footer .copyright {
@@ -135,4 +143,11 @@ footer .copyright {
   form {
     display: flex;
   }
+
+footer .social__icons i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  transition: ease-in-out .5s;
+}
+
 }
